@@ -1,0 +1,5 @@
+redis有五种类型:string,hash,list,set,zset(集合)
+1.查看所有key
+keys *
+2.查看key类型
+type 'keyname'
