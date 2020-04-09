@@ -5,7 +5,7 @@ keys *
 type 'key'
 
 
-#=>h1;Hash:
+# Hash:
 存值:hmset 'key' field1 value1 field2 value2...
 得到某一个值：hmget 'key' field
 返回所有：hgetall 'key'
